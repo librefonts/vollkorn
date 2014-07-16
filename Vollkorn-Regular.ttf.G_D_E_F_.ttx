@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GDEF>
+    <Version value="1.0"/>
+    <GlyphClassDef Format="2">
+      <ClassDef glyph="f_f.calt" class="2"/>
+      <ClassDef glyph="f_f_i" class="2"/>
+      <ClassDef glyph="f_f_l" class="2"/>
+      <ClassDef glyph="f_f_t" class="2"/>
+      <ClassDef glyph="f_j" class="2"/>
+      <ClassDef glyph="f_t" class="2"/>
+      <ClassDef glyph="fi" class="2"/>
+      <ClassDef glyph="fl" class="2"/>
+    </GlyphClassDef>
+    <LigCaretList>
+      <Coverage Format="1">
+        <Glyph value="fi"/>
+        <Glyph value="fl"/>
+        <Glyph value="f_j"/>
+        <Glyph value="f_t"/>
+        <Glyph value="f_f_t"/>
+        <Glyph value="f_f.calt"/>
+        <Glyph value="f_f_l"/>
+        <Glyph value="f_f_i"/>
+      </Coverage>
+      <!-- LigGlyphCount=8 -->
+      <LigGlyph index="0">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="372"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="1">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="379"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="2">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="368"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="3">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="410"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="4">
+        <!-- CaretCount=2 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="377"/>
+        </CaretValue>
+        <CaretValue index="1" Format="1">
+          <Coordinate value="763"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="5">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="324"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="6">
+        <!-- CaretCount=2 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="333"/>
+        </CaretValue>
+        <CaretValue index="1" Format="1">
+          <Coordinate value="803"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="7">
+        <!-- CaretCount=2 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="309"/>
+        </CaretValue>
+        <CaretValue index="1" Format="1">
+          <Coordinate value="626"/>
+        </CaretValue>
+      </LigGlyph>
+    </LigCaretList>
+  </GDEF>
+
+</ttFont>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-361"/>
+    <underlineThickness value="41"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="Germandbls"/>
+      <psName name="dotlessj"/>
+      <psName name="f.calt"/>
+      <psName name="f_f"/>
+      <psName name="f_f_i"/>
+      <psName name="f_f_l"/>
+      <psName name="f_f_t"/>
+      <psName name="f_j"/>
+      <psName name="f_t"/>
+      <psName name="f_f.calt"/>
+      <psName name="one.alt"/>
+      <psName name="two.dnom"/>
+      <psName name="four.dnom"/>
+      <psName name="one.numr"/>
+      <psName name="three.numr"/>
+      <psName name="periodcentered"/>
+      <psName name="softhyphen"/>
+      <psName name="Euro"/>
+      <psName name="heavyrightwardsarrow"/>
+      <psName name="macron"/>
+      <psName name="shortslash"/>
+      <psName name="apostrophe"/>
+    </extraNames>
+  </post>
+
+</ttFont>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="vollkorn.otf.GlyphOrder.ttx"/>
+  <head src="vollkorn.otf._h_e_a_d.ttx"/>
+  <hhea src="vollkorn.otf._h_h_e_a.ttx"/>
+  <maxp src="vollkorn.otf._m_a_x_p.ttx"/>
+  <OS_2 src="vollkorn.otf.O_S_2f_2.ttx"/>
+  <name src="vollkorn.otf._n_a_m_e.ttx"/>
+  <cmap src="vollkorn.otf._c_m_a_p.ttx"/>
+  <post src="vollkorn.otf._p_o_s_t.ttx"/>
+  <CFF src="vollkorn.otf.C_F_F_.ttx"/>
+  <GPOS src="vollkorn.otf.G_P_O_S_.ttx"/>
+  <GSUB src="vollkorn.otf.G_S_U_B_.ttx"/>
+  <hmtx src="vollkorn.otf._h_m_t_x.ttx"/>
+</ttFont>

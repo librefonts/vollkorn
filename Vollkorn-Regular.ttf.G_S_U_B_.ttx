@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=4 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=4 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="aalt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="calt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="dlig"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=5 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="f" out="f.calt"/>
+          <Substitution in="f_f" out="f_f.calt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="f,i" glyph="f_f_i"/>
+            <Ligature components="f" glyph="f_f"/>
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+            <Ligature components="f.calt" glyph="f_f.calt"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="f,l" glyph="f_f_l"/>
+            <Ligature components="f,t" glyph="f_f_t"/>
+            <Ligature components="j" glyph="f_j"/>
+            <Ligature components="t" glyph="f_t"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="f_f"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="agrave"/>
+            <Glyph value="acircumflex"/>
+            <Glyph value="atilde"/>
+            <Glyph value="adieresis"/>
+            <Glyph value="aring"/>
+            <Glyph value="b"/>
+            <Glyph value="egrave"/>
+            <Glyph value="ecircumflex"/>
+            <Glyph value="edieresis"/>
+            <Glyph value="f"/>
+            <Glyph value="h"/>
+            <Glyph value="i"/>
+            <Glyph value="igrave"/>
+            <Glyph value="icircumflex"/>
+            <Glyph value="idieresis"/>
+            <Glyph value="j"/>
+            <Glyph value="k"/>
+            <Glyph value="l"/>
+            <Glyph value="ntilde"/>
+            <Glyph value="ograve"/>
+            <Glyph value="ocircumflex"/>
+            <Glyph value="otilde"/>
+            <Glyph value="odieresis"/>
+            <Glyph value="thorn"/>
+            <Glyph value="germandbls"/>
+            <Glyph value="t"/>
+            <Glyph value="ugrave"/>
+            <Glyph value="ucircumflex"/>
+            <Glyph value="udieresis"/>
+            <Glyph value="ydieresis"/>
+            <Glyph value="B"/>
+            <Glyph value="D"/>
+            <Glyph value="Eth"/>
+            <Glyph value="E"/>
+            <Glyph value="Egrave"/>
+            <Glyph value="Eacute"/>
+            <Glyph value="Ecircumflex"/>
+            <Glyph value="Edieresis"/>
+            <Glyph value="F"/>
+            <Glyph value="H"/>
+            <Glyph value="I"/>
+            <Glyph value="Igrave"/>
+            <Glyph value="Iacute"/>
+            <Glyph value="Icircumflex"/>
+            <Glyph value="Idieresis"/>
+            <Glyph value="J"/>
+            <Glyph value="K"/>
+            <Glyph value="L"/>
+            <Glyph value="M"/>
+            <Glyph value="N"/>
+            <Glyph value="Ntilde"/>
+            <Glyph value="P"/>
+            <Glyph value="Thorn"/>
+            <Glyph value="R"/>
+            <Glyph value="T"/>
+            <Glyph value="U"/>
+            <Glyph value="Ugrave"/>
+            <Glyph value="Uacute"/>
+            <Glyph value="Ucircumflex"/>
+            <Glyph value="Udieresis"/>
+            <Glyph value="V"/>
+            <Glyph value="W"/>
+            <Glyph value="X"/>
+            <Glyph value="Y"/>
+            <Glyph value="Yacute"/>
+            <Glyph value="Z"/>
+            <Glyph value="fi"/>
+            <Glyph value="fl"/>
+            <Glyph value="f_j"/>
+            <Glyph value="f_t"/>
+            <Glyph value="f_f_t"/>
+            <Glyph value="exclam"/>
+            <Glyph value="question"/>
+            <Glyph value="quotesingle"/>
+            <Glyph value="quotedbl"/>
+            <Glyph value="degree"/>
+            <Glyph value="asterisk"/>
+            <Glyph value="apostrophe"/>
+            <Glyph value="quoteleft"/>
+            <Glyph value="quotedblleft"/>
+            <Glyph value="quoteright"/>
+            <Glyph value="quotedblright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="braceleft"/>
+            <Glyph value="braceright"/>
+            <Glyph value="bar"/>
+            <Glyph value="brokenbar"/>
+            <Glyph value="backslash"/>
+            <Glyph value="paragraph"/>
+            <Glyph value="eight"/>
+            <Glyph value="onesuperior"/>
+            <Glyph value="twosuperior"/>
+            <Glyph value="threesuperior"/>
+            <Glyph value="dollar"/>
+            <Glyph value="yen"/>
+            <Glyph value="percent"/>
+            <Glyph value="perthousand"/>
+            <Glyph value="ampersand"/>
+            <Glyph value="registered"/>
+            <Glyph value="f.calt"/>
+            <Glyph value="f_f.calt"/>
+            <Glyph value="Eszett"/>
+            <Glyph value="f_f_l"/>
+            <Glyph value="f_f_i"/>
+            <Glyph value="onequarter"/>
+            <Glyph value="onehalf"/>
+            <Glyph value="threequarters"/>
+            <Glyph value="ordfeminine"/>
+            <Glyph value="ordmasculine"/>
+            <Glyph value="f_f"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="f"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="agrave"/>
+            <Glyph value="acircumflex"/>
+            <Glyph value="atilde"/>
+            <Glyph value="adieresis"/>
+            <Glyph value="aring"/>
+            <Glyph value="b"/>
+            <Glyph value="egrave"/>
+            <Glyph value="ecircumflex"/>
+            <Glyph value="edieresis"/>
+            <Glyph value="f"/>
+            <Glyph value="h"/>
+            <Glyph value="i"/>
+            <Glyph value="igrave"/>
+            <Glyph value="icircumflex"/>
+            <Glyph value="idieresis"/>
+            <Glyph value="j"/>
+            <Glyph value="k"/>
+            <Glyph value="l"/>
+            <Glyph value="ntilde"/>
+            <Glyph value="ograve"/>
+            <Glyph value="ocircumflex"/>
+            <Glyph value="otilde"/>
+            <Glyph value="odieresis"/>
+            <Glyph value="thorn"/>
+            <Glyph value="germandbls"/>
+            <Glyph value="t"/>
+            <Glyph value="ugrave"/>
+            <Glyph value="ucircumflex"/>
+            <Glyph value="udieresis"/>
+            <Glyph value="ydieresis"/>
+            <Glyph value="B"/>
+            <Glyph value="D"/>
+            <Glyph value="Eth"/>
+            <Glyph value="E"/>
+            <Glyph value="Egrave"/>
+            <Glyph value="Eacute"/>
+            <Glyph value="Ecircumflex"/>
+            <Glyph value="Edieresis"/>
+            <Glyph value="F"/>
+            <Glyph value="H"/>
+            <Glyph value="I"/>
+            <Glyph value="Igrave"/>
+            <Glyph value="Iacute"/>
+            <Glyph value="Icircumflex"/>
+            <Glyph value="Idieresis"/>
+            <Glyph value="J"/>
+            <Glyph value="K"/>
+            <Glyph value="L"/>
+            <Glyph value="M"/>
+            <Glyph value="N"/>
+            <Glyph value="Ntilde"/>
+            <Glyph value="P"/>
+            <Glyph value="Thorn"/>
+            <Glyph value="R"/>
+            <Glyph value="T"/>
+            <Glyph value="U"/>
+            <Glyph value="Ugrave"/>
+            <Glyph value="Uacute"/>
+            <Glyph value="Ucircumflex"/>
+            <Glyph value="Udieresis"/>
+            <Glyph value="V"/>
+            <Glyph value="W"/>
+            <Glyph value="X"/>
+            <Glyph value="Y"/>
+            <Glyph value="Yacute"/>
+            <Glyph value="Z"/>
+            <Glyph value="fi"/>
+            <Glyph value="fl"/>
+            <Glyph value="f_j"/>
+            <Glyph value="f_t"/>
+            <Glyph value="f_f_t"/>
+            <Glyph value="exclam"/>
+            <Glyph value="question"/>
+            <Glyph value="quotesingle"/>
+            <Glyph value="quotedbl"/>
+            <Glyph value="degree"/>
+            <Glyph value="asterisk"/>
+            <Glyph value="apostrophe"/>
+            <Glyph value="quoteleft"/>
+            <Glyph value="quotedblleft"/>
+            <Glyph value="quoteright"/>
+            <Glyph value="quotedblright"/>
+            <Glyph value="parenleft"/>
+            <Glyph value="parenright"/>
+            <Glyph value="bracketleft"/>
+            <Glyph value="bracketright"/>
+            <Glyph value="braceleft"/>
+            <Glyph value="braceright"/>
+            <Glyph value="bar"/>
+            <Glyph value="brokenbar"/>
+            <Glyph value="backslash"/>
+            <Glyph value="paragraph"/>
+            <Glyph value="eight"/>
+            <Glyph value="onesuperior"/>
+            <Glyph value="twosuperior"/>
+            <Glyph value="threesuperior"/>
+            <Glyph value="dollar"/>
+            <Glyph value="yen"/>
+            <Glyph value="percent"/>
+            <Glyph value="perthousand"/>
+            <Glyph value="ampersand"/>
+            <Glyph value="registered"/>
+            <Glyph value="f.calt"/>
+            <Glyph value="f_f.calt"/>
+            <Glyph value="Eszett"/>
+            <Glyph value="f_f_l"/>
+            <Glyph value="f_f_i"/>
+            <Glyph value="onequarter"/>
+            <Glyph value="onehalf"/>
+            <Glyph value="threequarters"/>
+            <Glyph value="ordfeminine"/>
+            <Glyph value="ordmasculine"/>
+            <Glyph value="f_f"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="4"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="f" out="f.calt"/>
+          <Substitution in="f_f" out="f_f.calt"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
