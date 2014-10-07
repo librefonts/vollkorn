@@ -1,0 +1,718 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/vollkorn/METADATA.json /home/travis/build/fontdirectory/vollkorn/builds/build
+$ cp -a /home/travis/build/fontdirectory/vollkorn/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/vollkorn/builds/build
+$ cp -a /home/travis/build/fontdirectory/vollkorn/FONTLOG.txt /home/travis/build/fontdirectory/vollkorn/builds/build
+$ cp -a Vollkorn-Regular.ttf.ttx Vollkorn-Italic.ttf.ttx Vollkorn-BoldItalic.ttf.ttx Vollkorn-Bold.ttf.ttx src/vollkorn.otf.ttx Vollkorn-Regular.ttf._p_r_e_p.ttx Vollkorn-Regular.ttf._p_o_s_t.ttx Vollkorn-Regular.ttf._n_a_m_e.ttx Vollkorn-Regular.ttf._m_a_x_p.ttx Vollkorn-Regular.ttf._l_o_c_a.ttx Vollkorn-Regular.ttf._h_m_t_x.ttx Vollkorn-Regular.ttf._h_h_e_a.ttx Vollkorn-Regular.ttf._h_e_a_d.ttx Vollkorn-Regular.ttf._g_l_y_f.ttx Vollkorn-Regular.ttf._g_a_s_p.ttx Vollkorn-Regular.ttf._f_p_g_m.ttx Vollkorn-Regular.ttf._c_v_t.ttx Vollkorn-Regular.ttf._c_m_a_p.ttx Vollkorn-Regular.ttf.O_S_2f_2.ttx Vollkorn-Regular.ttf.GlyphOrder.ttx Vollkorn-Regular.ttf.G_S_U_B_.ttx Vollkorn-Regular.ttf.G_P_O_S_.ttx Vollkorn-Regular.ttf.G_D_E_F_.ttx Vollkorn-Italic.ttf._p_r_e_p.ttx Vollkorn-Italic.ttf._p_o_s_t.ttx Vollkorn-Italic.ttf._n_a_m_e.ttx Vollkorn-Italic.ttf._m_a_x_p.ttx Vollkorn-Italic.ttf._l_o_c_a.ttx Vollkorn-Italic.ttf._h_m_t_x.ttx Vollkorn-Italic.ttf._h_h_e_a.ttx Vollkorn-Italic.ttf._h_e_a_d.ttx Vollkorn-Italic.ttf._g_l_y_f.ttx Vollkorn-Italic.ttf._g_a_s_p.ttx Vollkorn-Italic.ttf._f_p_g_m.ttx Vollkorn-Italic.ttf._c_v_t.ttx Vollkorn-Italic.ttf._c_m_a_p.ttx Vollkorn-Italic.ttf.V_D_M_X_.ttx Vollkorn-Italic.ttf.O_S_2f_2.ttx Vollkorn-Italic.ttf.GlyphOrder.ttx Vollkorn-Italic.ttf.G_S_U_B_.ttx Vollkorn-Italic.ttf.G_P_O_S_.ttx Vollkorn-BoldItalic.ttf._p_r_e_p.ttx Vollkorn-BoldItalic.ttf._p_o_s_t.ttx Vollkorn-BoldItalic.ttf._n_a_m_e.ttx Vollkorn-BoldItalic.ttf._m_a_x_p.ttx Vollkorn-BoldItalic.ttf._l_o_c_a.ttx Vollkorn-BoldItalic.ttf._h_m_t_x.ttx Vollkorn-BoldItalic.ttf._h_h_e_a.ttx Vollkorn-BoldItalic.ttf._h_e_a_d.ttx Vollkorn-BoldItalic.ttf._g_l_y_f.ttx Vollkorn-BoldItalic.ttf._g_a_s_p.ttx Vollkorn-BoldItalic.ttf._f_p_g_m.ttx Vollkorn-BoldItalic.ttf._c_v_t.ttx Vollkorn-BoldItalic.ttf._c_m_a_p.ttx Vollkorn-BoldItalic.ttf.V_D_M_X_.ttx Vollkorn-BoldItalic.ttf.O_S_2f_2.ttx Vollkorn-BoldItalic.ttf.GlyphOrder.ttx Vollkorn-BoldItalic.ttf.G_S_U_B_.ttx Vollkorn-BoldItalic.ttf.G_P_O_S_.ttx Vollkorn-Bold.ttf._p_r_e_p.ttx Vollkorn-Bold.ttf._p_o_s_t.ttx Vollkorn-Bold.ttf._n_a_m_e.ttx Vollkorn-Bold.ttf._m_a_x_p.ttx Vollkorn-Bold.ttf._l_o_c_a.ttx Vollkorn-Bold.ttf._h_m_t_x.ttx Vollkorn-Bold.ttf._h_h_e_a.ttx Vollkorn-Bold.ttf._h_e_a_d.ttx Vollkorn-Bold.ttf._g_l_y_f.ttx Vollkorn-Bold.ttf._g_a_s_p.ttx Vollkorn-Bold.ttf._f_p_g_m.ttx Vollkorn-Bold.ttf._c_v_t.ttx Vollkorn-Bold.ttf._c_m_a_p.ttx Vollkorn-Bold.ttf.V_D_M_X_.ttx Vollkorn-Bold.ttf.O_S_2f_2.ttx Vollkorn-Bold.ttf.GlyphOrder.ttx Vollkorn-Bold.ttf.G_S_U_B_.ttx Vollkorn-Bold.ttf.G_P_O_S_.ttx Vollkorn-Bold.ttf.G_D_E_F_.ttx src/vollkorn.otf._p_o_s_t.ttx src/vollkorn.otf._n_a_m_e.ttx src/vollkorn.otf._m_a_x_p.ttx src/vollkorn.otf._h_m_t_x.ttx src/vollkorn.otf._h_h_e_a.ttx src/vollkorn.otf._h_e_a_d.ttx src/vollkorn.otf._c_m_a_p.ttx src/vollkorn.otf.O_S_2f_2.ttx src/vollkorn.otf.GlyphOrder.ttx src/vollkorn.otf.G_S_U_B_.ttx src/vollkorn.otf.G_P_O_S_.ttx src/vollkorn.otf.C_F_F_.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/vollkorn/builds/build/sources/vollkorn.otf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Bold.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Italic.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx vollkorn.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/sources/vollkorn.otf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Vollkorn-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Bold.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Vollkorn-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Vollkorn-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Italic.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Vollkorn-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttf.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/vollkorn/builds/build /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Italic.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-BoldItalic.ttx /home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Bold.ttx
+Compiling "/home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Regular.ttx" to "/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Italic.ttx" to "/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-BoldItalic.ttx" to "/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/vollkorn/builds/build/sources/Vollkorn-Bold.ttx" to "/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test Vollkorn-Regular.ttf
+$ fontbakery-check.py result Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+Parameter              Vollkorn-Regular.ttf    Vollkorn-Bold.ttf    Vollkorn-BoldItalic.ttf    Vollkorn-Italic.ttf    
+ymax                   937                     952                  947                        942                    
+hhea.ascent            952                     952                  952                        952                    
+OS/2.sTypoAscender     952                     952                  952                        952                    
+OS/2.usWinAscent       952                     952                  952                        952                    
+ymin                   -273                    -283                 -283                       -276                   
+hhea.descent           -283                    -283                 -283                       -283                   
+OS/2.sTypoDescender    -283                    -283                 -283                       -283                   
+OS/2.usWinDescent      283                     283                  283                        283                    
+hhea.lineGap           0                       0                    0                          0                      
+OS/2.sTypoLineGap      0                       0                    0                          0                      
+hhea total             1235                    1235                 1235                       1235                   
+typo total             1235                    1235                 1235                       1235                   
+win total              1235                    1235                 1235                       1235                   
+UPM:Heights            1000:1210               1000:1235            1000:1230                  1000:1218              
+UPM:Heights %          121 %                   123 %                123 %                      121 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Vollkorn-Regular.ttf
+$ ls -l 'Vollkorn-Regular.ttf'* # look at the size savings of that subset process
+Vollkorn-Regular.ttf.opt: 57540 bytes
+Vollkorn-Regular.ttf: 60156 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf.opt /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+### Autohint TTFs (ttfautohint) Vollkorn-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf '/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf: 57540 bytes
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.autohint.ttf: 61328 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.autohint.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+### Subset TTFs (pyftsubset) Vollkorn-Regular.ttf
+$ pyftsubset Vollkorn-Regular.latin
+$ pyftsubset Vollkorn-Regular.menu
+strippedname:/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Regular.ttf
+### Test Vollkorn-Italic.ttf
+$ fontbakery-check.py result Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'VDMX' vertical device metrics table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Italic
+Windows String: Regular
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Vollkorn-Italic.ttf
+$ ls -l 'Vollkorn-Italic.ttf'* # look at the size savings of that subset process
+Vollkorn-Italic.ttf.opt: 55944 bytes
+Vollkorn-Italic.ttf: 58564 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf.opt /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+### Autohint TTFs (ttfautohint) Vollkorn-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf '/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf: 55944 bytes
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.autohint.ttf: 55032 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.autohint.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+### Subset TTFs (pyftsubset) Vollkorn-Italic.ttf
+$ pyftsubset Vollkorn-Italic.latin
+$ pyftsubset Vollkorn-Italic.menu
+strippedname:/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Italic.ttf
+No nbsp glyph
+spaceWidth is    180
+nbspWidth is     0
+Vollkorn-Italic.ttf.fix made with spaceWidth and nbspWidth of 180
+### Test Vollkorn-BoldItalic.ttf
+$ fontbakery-check.py result Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'VDMX' vertical device metrics table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Bold Italic
+Windows String: Regular
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Vollkorn-BoldItalic.ttf
+$ ls -l 'Vollkorn-BoldItalic.ttf'* # look at the size savings of that subset process
+Vollkorn-BoldItalic.ttf.opt: 53592 bytes
+Vollkorn-BoldItalic.ttf: 56232 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf.opt /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Vollkorn-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf '/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf: 53592 bytes
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.autohint.ttf: 56940 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Vollkorn-BoldItalic.ttf
+$ pyftsubset Vollkorn-BoldItalic.latin
+$ pyftsubset Vollkorn-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-BoldItalic.ttf
+No nbsp glyph
+spaceWidth is    200
+nbspWidth is     0
+Vollkorn-BoldItalic.ttf.fix made with spaceWidth and nbspWidth of 200
+### Test Vollkorn-Bold.ttf
+$ fontbakery-check.py result Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'VDMX' vertical device metrics table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Bold
+Windows String: Regular
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.fix /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Vollkorn-Bold.ttf
+$ ls -l 'Vollkorn-Bold.ttf'* # look at the size savings of that subset process
+Vollkorn-Bold.ttf.opt: 64136 bytes
+Vollkorn-Bold.ttf: 66740 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf.opt /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+### Autohint TTFs (ttfautohint) Vollkorn-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf '/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf: 64136 bytes
+/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.autohint.ttf: 62588 bytes
+$ mv /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.autohint.ttf /home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+### Subset TTFs (pyftsubset) Vollkorn-Bold.ttf
+$ pyftsubset Vollkorn-Bold.latin
+$ pyftsubset Vollkorn-Bold.menu
+strippedname:/home/travis/build/fontdirectory/vollkorn/builds/build/Vollkorn-Bold.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/vollkorn/builds/build
+{} exists
+Designer's name from font is: Friedrich Althausen
+Original size: 61328\nGzip size: 34189
+Family Name: Vollkorn
+PS Name: Vollkorn-Bold
+Full Name: Vollkorn Bold
+Style: normal
+Weight: 700
+Filename: Vollkorn-Bold.ttf
+Copyright: Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
+Family Name: Vollkorn
+PS Name: Vollkorn-BoldItalic
+Full Name: Vollkorn Bold Italic
+Style: normal
+Weight: 700
+Filename: Vollkorn-BoldItalic.ttf
+Copyright: Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
+Family Name: Vollkorn
+PS Name: Vollkorn-Italic
+Full Name: Vollkorn Italic
+Style: normal
+Weight: 400
+Filename: Vollkorn-Italic.ttf
+Copyright: Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
+Family Name: Vollkorn
+PS Name: Vollkorn-Regular
+Full Name: Vollkorn Regular
+Style: normal
+Weight: 400
+Filename: Vollkorn-Regular.ttf
+Copyright: Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+{
+  "name": "Vollkorn", 
+  "designer": "Friedrich Althausen", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Serif", 
+  "size": 31898, 
+  "fonts": [
+    {
+      "name": "Vollkorn", 
+      "postScriptName": "Vollkorn-Bold", 
+      "fullName": "Vollkorn Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Vollkorn-Bold.ttf", 
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }, 
+    {
+      "name": "Vollkorn", 
+      "postScriptName": "Vollkorn-BoldItalic", 
+      "fullName": "Vollkorn Bold Italic", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Vollkorn-BoldItalic.ttf", 
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }, 
+    {
+      "name": "Vollkorn", 
+      "postScriptName": "Vollkorn-Italic", 
+      "fullName": "Vollkorn Italic", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Vollkorn-Italic.ttf", 
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }, 
+    {
+      "name": "Vollkorn", 
+      "postScriptName": "Vollkorn-Regular", 
+      "fullName": "Vollkorn Regular", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Vollkorn-Regular.ttf", 
+      "copyright": "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de). All rights reserved.\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2010-09-08"
+}
